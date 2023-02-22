@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.js"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="https://kit.fontawesome.com/d48b7ca886.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+    <!-- <header class="header">
+        <div class="header__item">
+        </div>
+    </header> -->
+
+    <section class="container">
+        <!-- <div class="header_menu">
+            <div class="header_logo">
+                <img src="img/logo.jpeg" alt="">
+            </div>
+            <div class="header_search">
+                <i class="fa-regular fa-magnifying-glass"></i>
+                <input type="text" placeholder="Enter keyword..">
+                <button>Search</button>
+            </div>
+            <div class="header_icons">
+                <div>
+                    <i class="fa-regular fa-user"></i>
+                    
+                </div>
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                    <span>0</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-basket-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="nav">
+            <div class="nav-left">
+                <p>JALIL</p>
+            </div>
+            <div class="nav-right">
+                <div class="nav-right ii" onclick="changeBurgerMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                    <div id="burger-menu">
+                        <div class="menu-item">
+                            <p>Home</p>
+                        </div>
+                        <div class="menu-item">
+                            <p>About</p>
+                        </div>
+                        <div class="menu-item">
+                            <p>Service</p>
+                        </div>
+                        <div class="menu-item">
+                            <p>Portfolio</p>
+                        </div>
+                        <div class="menu-item">
+                            <p>Pricing</p>
+                        </div>
+                        <div class="menu-item">
+                            <p>Blog</p>
+                        </div>
+                        <div class="menu-item">
+                            <p>Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Service</a>
+                <a href="">Portfolio</a>
+                <a href="">Pricing</a>
+                <a href="">Blog</a>
+                <!-- <a href="">Contact</a> -->
+                <div class="contact-icon">
+                    <!-- <p>contact</p> -->
+                    <a href="">Contact</a>
+                </div>
+                  
+                <div class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                  
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                  
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                  
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-slider">
+                <div class="main-slider-item">
+                    <div class="main-slider-item-1">
+                        <h5>Hello, I'm</h5>
+                        <div class="main-slider-item-1-1">
+                            <h2 class="h2-x">AL JALIL</h2>
+                            <!-- <h2 class="h2-c">Web Developer.</h2> -->
+                            <div class="content">
+                                <span id="output"></span>
+                                <!-- <span id="cursor">|</span> -->
+                            </div>
+                        </div>
+                        <p>I'm a expert web design and Web development, I'm a Front End Developer. I have a Passion for Creating Clean, Beautiful, Interactive, Minimalistic, Responsive and User Friendly UI, Developed by Modular, Scalable and Functional Code.</p>
+                        <div class="main-slider-item-1-2">
+                            <h3>Hire Me</h3>
+                            <h3>Download Cv</h3>
+                        </div>
+                        <div class="main-slider-item-1-3">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </div>
+                    <div class="main-slider-item-2">
+                        <img src="/img/man.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about-main">
+                <div class="about-main-item">
+                    <div class="mbout-main-item-1">
+                        <img src="/img/about_man.png" alt="">
+                    </div>
+                    <div class="about-main-item-2">
+                        <div class="about-main-item-2-1">
+                            <h5>Basic Info Aboue Me</h5>
+                            <h2>About us</h2>
+                            <h3>Hello, I'm Al Jalil Creative Web Designer in USA</h3>
+                            <p>I'm a expert Web design and Web development focused on clean & user-friendly experiences, I am experiences about building excellent Websites that improves the lives of those around me.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="about-main-item-2-2">
+                            <div class="grid">
+                                <div class="grid-item">
+                                    <div class="first">
+                                      <h5>UI Design</h5>
+                                      <div class="grid-item-progress">
+                                        <div class="grid-item-progress-bar">
+                                            <span class="title">65%</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <h5>UX Design</h5>
+                                    <div class="grid-item-progress">
+                                        <div class="grid-item-progress-bar">
+                                            <span class="title">75%</span>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="grid-item">
+                                    <h5>Web Design</h5>
+                                    <div class="grid-item-progress">
+                                        <div class="grid-item-progress-bar">
+                                            <span class="title">85%</span>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="grid-item">
+                                    <h5>Php Analysis</h5>
+                                    <div class="grid-item-progress">
+                                        <div class="grid-item-progress-bar">
+                                            <span class="title">95%</span>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-main-item-2-3">
+                            <div class="about-main-item-2-3-1">
+                                <span class="item" data-num="1500">0</span>
+                                <h3>Projects Work</h3>
+                                <div class="about-main-item-2-3-after">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="about-main-item-2-3-1">
+                                <span class="item" data-num="4500">0</span>
+                                <h3>Happy Client</h3>
+                                <div class="about-main-item-2-3-after">
+                                    <i class="fa-solid fa-face-smile"></i>
+                                </div>
+                            </div>
+                            <div class="about-main-item-2-3-1">
+                                <span class="item" data-num="5500">0</span>
+                                <h3>Cup Coffee</h3>
+                                <div class="about-main-item-2-3-after">
+                                    <i class="fa-solid fa-mug-saucer"></i>
+                                </div>
+                            </div>
+                            <div class="about-main-item-2-3-1">
+                                <span class="item" data-num="6500">0</span>
+                                <h3>Timely Deliver</h3>
+                                <div class="about-main-item-2-3-after">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="education">
+            <div class="eductaion-item">
+                <h5>25+ YEARS EXPERIENCE</h5>
+                <h2>EDUCATION & EXPERIENCE</h2>
+                <!-- <div class="eductaion-item-slider">.</div> -->
+                <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                <h3>You Can See My Education</h3>
+            </div>
+            <div class="education-blocks">
+                <div class="education-blocks-1">
+                    <div class="education-blocks-1-1">
+                        <a href="" class="white"> Education </a>
+                    </div>
+                    <div class="education-blocks-1-1">
+                        <a href=""> Experience </a>
+                    </div>
+                    <div class="education-blocks-1-1">
+                        <a href="">Award </a>
+                    </div>
+                </div>
+                <div class="education-blocks-2">
+                    <div class="education-blocks-item">
+                        <div class="education-blocks-item-1">
+                            <h3>North University</h3>
+                            <h6>2008-2012</h6>
+                        </div>
+                        <div class="education-blocks-item-2">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Master Degree</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                        </div>
+                    </div>
+                    <div class="education-blocks-item">
+                        <div class="education-blocks-item-1">
+                            <h3>North University</h3>
+                            <h6>2005-2010</h6>
+                        </div>
+                        <div class="education-blocks-item-2">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>B A Honours</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                        </div>
+                    </div>
+                    <div class="education-blocks-item">
+                        <div class="education-blocks-item-1">
+                            <h3>North University</h3>
+                            <h6>2003-2006</h6>
+                        </div>
+                        <div class="education-blocks-item-2">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Bachlor Degree</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-item">
+                <div class="service-item-1">
+                    <h5>WHAT CAN I DO</h5>
+                    <h2>MY SERVICE</h2>
+                    <div class="service-item-1-slider"> </div>
+                    <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                    <h3>What Want To You Service?</h3>
+                </div>
+                <div class="service-item-2">
+                    <div class="service-item-2-grid">
+                        <div class="service-item-2-grid-1">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                        <div class="service-item-2-grid-1">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                        <div class="service-item-2-grid-1">
+                            <i class="fa-solid fa-bolt"></i>
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                        <div class="service-item-2-grid-1">
+                            <i class="fa-solid fa-bug"></i>
+                            <h3>Product Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                        <div class="service-item-2-grid-1">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Online Support</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                        <div class="service-item-2-grid-1">
+                            <i class="fa-brands fa-html5"></i>
+                            <h3>Visual Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="porfolio">
+            <div class="porfolio-item">
+                <div class="porfolio-item-1">
+                    <h5>MY WORKS</h5>
+                    <h2>MY PORTFOLIO</h2>
+                    <div class="porfolio-item-1-slider"> </div>
+                    <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                    <h3>How Did Our Portfolio Gallery</h3>
+                </div>
+                <div class="porfolio-item-2">
+                    <h3>All</h3>
+                    <h3>Digital</h3>
+                    <h3>Creative</h3>
+                    <h3>Photography</h3>
+                    <h3>Design</h3>
+                </div>
+                <!-- <div class="porfolio-item-3">
+                    <div class="porfolio-item-3s">
+                        <div>
+                            <img src="img/porfolio1.jpeg" alt="">
+
+                        </div>
+                        <div>
+                            <img src="img/porfolio2.jpeg" alt="">
+
+                        </div> 
+                        <div>
+                            <img src="img/porfolio3.jpeg" alt="">
+
+                        </div> -->
+                        <!-- <img src="img/porfolio2.jpeg" alt="">
+                        <img src="img/porfolio3.jpeg" alt="">
+                        <img src="img/porfolio4.jpeg" alt="">
+                        <img src="img/porfolio5.jpeg" alt="">
+                        <img src="img/porfolio6.jpeg" alt="">
+                        <img src="img/porfolio7.jpeg" alt="">
+                        <img src="img/porfolio8.jpeg" alt="">
+                        <img src="img/porfolio9.jpeg" alt=""> -->
+                    <!-- </div>
+  
+                    <div class="overlay-img-1">
+                        <div class="overlay-img-1-text">
+                            <p>Design & Marketing</p>
+                            <h3>Curved And Design</h3>
+                        </div>
+                    </div>
+                     -->
+                <!-- </div> -->
+                <div class="porfolio-item-4">
+                    <!-- <div class="overly">
+                        <a href="">View More</a>
+                    </div> -->
+                    <a href="">View More</a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="pricing">
+            <div class="pricing-item">
+                <div class="pricing-item-1">
+                    <h5>LATEST PRICING</h5>
+                    <h2>OUR PRICING</h2>
+                    <div class="pricing-item-1-slider"> </div>
+                    <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                    <h3>How Is Our Price Value</h3>
+                </div>
+                <div class="pricing-item-2">
+                    <div class="pricing-item-2-grid">
+                        <div class="pricing-item-2-grid-1">
+                            <h4>STANDARD</h4>
+                            <span>$50.95</span>
+                            <br>
+                            <span class="p">/2 Month Package</span>
+                        </div>
+                        <div class="pricing-item-2-grid-2">
+                            <div class="pricing-item-2-grid-2-1">
+                                <li>1 GB Disk Space</li>
+                                <li>2 Domain Names</li>
+                                <li>1 Email Address</li>
+                                <li>Enhanced Security</li>
+                                <li>Customer Service</li>
+                                <li>24/7 Support</li>
+                            </div>
+                            <div class="pricing-item-2-grid-2-2">
+                                <!-- <div class="overly">
+                                    <a href="">View More</a>
+                                </div> -->
+                                <a href="">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-item-2-grid">
+                        <div class="pricing-item-2-grid-1">
+                            <h4>BUSINESS</h4>
+                            <span>$80.95</span>
+                            <br>
+                            <span class="p">/3 Month Package</span>
+                        </div>
+                        <div class="pricing-item-2-grid-2">
+                            <div class="pricing-item-2-grid-2-1">
+                                <li>1 GB Disk Space</li>
+                                <li>2 Domain Names</li>
+                                <li>1 Email Address</li>
+                                <li>Enhanced Security</li>
+                                <li>Customer Service</li>
+                                <li>24/7 Support</li>
+                            </div>
+                            <div class="pricing-item-2-grid-2-2">
+                                <!-- <div class="overly">
+                                    <a href="">View More</a>
+                                </div> -->
+                                <a href="">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-item-2-grid">
+                        <div class="pricing-item-2-grid-1">
+                            <h4>PREMIUM</h4>
+                            <span>$95.95</span>
+                            <br>
+                            <span class="p">/12 Month Package</span>
+                        </div>
+                        <div class="pricing-item-2-grid-2">
+                            <div class="pricing-item-2-grid-2-1">
+                                <li>1 GB Disk Space</li>
+                                <li>2 Domain Names</li>
+                                <li>1 Email Address</li>
+                                <li>Enhanced Security</li>
+                                <li>Customer Service</li>
+                                <li>24/7 Support</li>
+                            </div>
+                            <div class="pricing-item-2-grid-2-2">
+                                <!-- <div class="overly">
+                                    <a href="">Get Start</a>
+                                </div> -->
+                                <a href="">Get Start</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="client">
+            <div class="client-item">
+                <div class="client-item-1">
+                    <h5>HAPPY CLIENT</h5>
+                    <h2>OUR TESTIMONIAL</h2>
+                    <div class="client-item-1-slider"> </div>
+                    <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                    <h3>What Say Our Work To Client</h3>
+                </div>
+                <div class="client-item-2">
+                    <div class="client-item-2-flex-1">
+                        <div class="client-item-2-1">
+                            <div>
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum available but the majority have or suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believableThere are many variations of passages.</p>
+                            </div>
+                        </div>
+                        <div class="client-item-2-1">
+                            <div class="client-item-2-1-1">
+                                <img src="img/client1.jpeg" alt="">
+                                <div class="client-item-2-1-col">
+                                    <h3>Ar-Rahman</h3>
+                                    <p>(CEO)</p>
+                                    <div class="client-item-2-1-row">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-item-2-flex-2">
+                        <div class="client-item-2-1">
+                            <div>
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum available but the majority have or suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believableThere are many variations of passages.</p>
+                            </div>
+                        </div>
+                        <div class="client-item-2-1">
+                            <div class="client-item-2-1-1">
+                                <img src="img/client2.jpeg" alt="">
+                                <div class="client-item-2-1-col">
+                                    <h3>Ar-Rahman</h3>
+                                    <p>(CEO)</p>
+                                    <div class="client-item-2-1-row">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-item-3">
+                    <span></span>
+                    <span></span>
+                    <span class="span-class"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="latest">
+            <div class="latest-item">
+                <div class="latest-item-1">
+                    <h5>RECENT NEWS</h5>
+                    <h2>OUR LATEST BLOG</h2>
+                    <div class="latest-item-1-slider"> </div>
+                    <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                    <h3>What Can Our Latest Blog?</h3>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="end">
+            <div class="end-item">
+                <div class="end-item-1">
+                    <h3>You can hire, me I am always prepare to help you!</h3>
+                    <div class="end-item-1-1">
+                        <div class="overly">
+                            <a href="">Hire Me</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="contact-item">
+                <div class="contact-item-1">
+                    <h5>GET IN TOUCH</h5>
+                    <h2>CONTACT ME</h2>
+                    <div class="contact-item-1-slider"> </div>
+                    <p>Laoreet elementum Sed congue nisl dolorSed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis.</p>
+                    <h3>Contact With Me</h3>
+                </div>
+                <div class="contact-item-2">
+                    <div class="contact-item-2-grid">
+                        <div class="contact-item-2-grid-1">
+                            <i class="fa-solid fa-house"></i>
+                            <h4>Home Address</h4>
+                            <p>1 Grafton Street, Dublin, Ireland University.</p>
+                        </div>
+                        <div class="contact-item-2-grid-1">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Mobile Number</h4>
+                            <p>+135 773 321 4442</p>
+                        </div>
+                        <div class="contact-item-2-grid-1">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email Address</h4>
+                            <p>demo@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-item-3">
+                    <div class="contact-item-3-col">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your Email">
+                        <input type="text" placeholder="Your Subject">
+                        <input type="text" placeholder="Your Message">
+                        <div class="contact-item-3-col-1">
+                            <div class="overly">
+                                <a href="">Send Message</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- <iframe style="border:0" src="https://maps.google.com/maps?width=100%25&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" allowfullscreen=""></iframe> -->
+                    <iframe src="https://maps.google.com/maps?width=100%25&hl=en&q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                    frameborder="0"
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer_item">
+                <h2>Contact & Working Info</h2>
+                <h3>Email: <a href="" class="aa">[email protected]</a>
+                    <br>
+                    Phone: +585 454-258811</h3>
+                <p>1 Grafton Street, Dublin, 
+                    Ireland University,9414,CA, USA.</p>
+                
+            </div>
+            <div class="footer_item">
+                <h2>Support</h2>
+                <a href="">Get Stared</a>
+                <a href="">Services</a>
+                <a href="">About</a>
+                <a href="">Need Helps</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="footer_item">
+                <h2>About Us</h2>
+                <a href="">Our Product</a>
+                <a href="">Our Service</a>
+                <a href="">Privacy policy</a>
+                <a href="">Apps Download</a>
+                <a href="">General Terms</a>
+            </div>
+            <div class="footer_item">
+                <h2>Subscribe</h2>
+                <input type="text" placeholder="Type Your Email">
+                <div class="footer_item-1-1">
+                    <div class="overly">
+                        <a href="">Subscribe</a>
+                    </div>
+                </div> 
+            </div>
+        </footer>
+        
+        <div class="footer-dop">
+            <div class="footer-dop-1-slider"> </div>
+            <p>©Copyright - All Right Reserved.
+            <br>
+            Designed by <span>Themes-family</span></p>
+            
+        </div>
+    </section>
+    <!-- <div class="slider">
+        <div>slide1</div>
+        <div>slide2</div>
+        <div>slide3</div>
+        <div>slide4</div>
+        <div>slide5</div>
+    </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/counter.js"></script>
+</body>
+</html>
